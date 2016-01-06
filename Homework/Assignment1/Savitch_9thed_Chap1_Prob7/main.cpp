@@ -17,11 +17,7 @@
     // Execution Begins Here
 int main(int argc, char** argv) {
     //Declare and initialize variables
-    char letter='C';
-    char bigs  ='S';
-    char border='*';
-    char point ='!';
-    char period='0';
+    char letter='C',period='0',bigs  ='S',point ='!',border='*';
     //Output the results
     cout<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<endl;
     cout<<endl;
@@ -37,6 +33,7 @@ int main(int argc, char** argv) {
     cout<<endl;
     cout<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<border<<endl;
     cout<<"       "<<"Computer Science is Cool Stuff!!!"<<endl;
+    cout<<600e9f/3.8e12f;
     //Exit stage right
     return 0;
 }

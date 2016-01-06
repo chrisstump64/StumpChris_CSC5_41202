@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin_4.x-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin_4.x-Windows
-CND_ARTIFACT_NAME_Debug=savitch_9thed_chap1_prob7
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/savitch_9thed_chap1_prob7
+CND_ARTIFACT_NAME_Debug=millitary_budget_calculation
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/millitary_budget_calculation
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin_4.x-Windows/package
-CND_PACKAGE_NAME_Debug=savitch9thedchap1prob7.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/savitch9thedchap1prob7.tar
+CND_PACKAGE_NAME_Debug=millitarybudgetcalculation.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/millitarybudgetcalculation.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin_4.x-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin_4.x-Windows
-CND_ARTIFACT_NAME_Release=savitch_9thed_chap1_prob7
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/savitch_9thed_chap1_prob7
+CND_ARTIFACT_NAME_Release=millitary_budget_calculation
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/millitary_budget_calculation
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin_4.x-Windows/package
-CND_PACKAGE_NAME_Release=savitch9thedchap1prob7.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/savitch9thedchap1prob7.tar
+CND_PACKAGE_NAME_Release=millitarybudgetcalculation.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/millitarybudgetcalculation.tar
 #
 # include compiler specific variables
 #
