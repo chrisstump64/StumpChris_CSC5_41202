@@ -11,7 +11,7 @@ using namespace std;
 // User Libraries
 
 // Global Constants
-const char WTBILL= 1; //weight in grams
+const char  WTBILL= 1; //weight in grams
 const float CNVLBS = 1.0f/453.5f; //conversion from grams to pounds
 // Function Prototypes
 
