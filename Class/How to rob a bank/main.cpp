@@ -11,8 +11,8 @@ using namespace std;
 // User Libraries
 
 // Global Constants
-const char wtBill= 1; //weight in grams
-const float cnvlbs = 1.0f/453.5f; //conversion from grams to pounds
+const char WTBILL= 1; //weight in grams
+const float CNVLBS = 1.0f/453.5f; //conversion from grams to pounds
 // Function Prototypes
 
 // Execution Begins Here
@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
     cin  >> denom;
     
     //Calculate the number of perps needed
-    nPerps=cnvlbs*amtStl*wtBill/denom/wtPers+1; 
+    nPerps=CNVLBS*amtStl*WTBILL/denom/wtPers+1; 
     
     //Output the results
     cout<<"Amount Desired = $"<<amtStl<<endl;
