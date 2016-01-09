@@ -30,7 +30,6 @@ int main(int argc, char** argv) {
     cout<<letter<<endl;
     cout<<" "<<letter<<"  "<<letter<<endl;
     cout<<"  "<<letter<<letter<<letter<<endl;
-    cout<<2.1+2.3;
     //Exit stage right
     return 0;
 }
