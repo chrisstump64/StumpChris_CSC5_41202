@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Millitary Budget Calculation
+PROJECTNAME=Gaddis_8thed_Chap2_Prob18
 
 # Active Configuration
 DEFAULTCONF=Debug
