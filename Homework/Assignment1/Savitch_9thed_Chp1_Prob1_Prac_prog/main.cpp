@@ -18,7 +18,7 @@
 int main(int argc, char** argv) {
     //Declare and initialize variables
     int numpods;    // The Number of Peapods
-    int perpod;     // The Number of Peas per pod
+    int numpeas;    // The Number of Peas per pod
     int totpea;     // The Total number of Peas 
     
     //Calculate or map inputs to outputs
@@ -26,15 +26,15 @@ int main(int argc, char** argv) {
     cout << "Enter the number of pods:\n";
     cin  >> numpods;           // The users input on the amount of pods
     cout << "Enter the number of peas in a pod:\n";
-    cin  >> perpod;            // The users input on the amount of peas per pod 
-    totpea = numpods * perpod; // The equation to determine the total number of peas
+    cin  >> numpeas;            // The users input on the amount of peas per pod 
+    totpea = numpods * numpeas; // The equation to determine the total number of peas
     
     //Output the results
     cout << "If you have ";
     cout << numpods;
     cout << " pea pods\n";
     cout << "and ";
-    cout << perpod;
+    cout << numpeas;
     cout << " peas in each pod, then\n";
     cout << "you have ";
     cout << totpea;
