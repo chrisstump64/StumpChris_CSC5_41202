@@ -1,7 +1,7 @@
 /* 
     Author: Christopher Dean Stump
     Created on January 6, 2016, 4:00 PM
-    Purpose: How many does it take?
+    Purpose: Calculate the distance
  */
 
 // System Libraries

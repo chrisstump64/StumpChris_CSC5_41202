@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Savitch_9thed_Chp1_Prob3
+PROJECTNAME=Savitch_9thed_Chp1_Prob3_Prac_prog
 
 # Active Configuration
 DEFAULTCONF=Debug
@@ -76,7 +76,7 @@ ALLCONFS=Debug Release
 .depcheck-impl:
 	@echo "# This code depends on make tool being used" >.dep.inc
 	@if [ -n "${MAKE_VERSION}" ]; then \
-	    echo "DEPFILES=\$$(wildcard \$$(addsuffix .d, \$${OBJECTFILES}))" >>.dep.inc; \
+	    echo "DEPFILES=\$$(wildcard \$$(addsuffix .d, \$${OBJECTFILES} \$${TESTOBJECTFILES}))" >>.dep.inc; \
 	    echo "ifneq (\$${DEPFILES},)" >>.dep.inc; \
 	    echo "include \$${DEPFILES}" >>.dep.inc; \
 	    echo "endif" >>.dep.inc; \

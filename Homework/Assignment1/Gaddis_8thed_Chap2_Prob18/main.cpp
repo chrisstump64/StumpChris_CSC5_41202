@@ -1,7 +1,7 @@
 /* 
     Author: Christopher Dean Stump
-    Created on January 4, 2016, 10:18 AM
-    Purpose: Check out IDE, HelloWorld
+    Created on January 6, 2016, 11:00 AM
+    Purpose: Calculate energy drinkers
  */
 
 // System Libraries
@@ -11,7 +11,7 @@ using namespace std;
 // User Libraries
 
 // Global Constants
-const char cnvPerc=100;
+const char CNVPERC=100;
 // Function Prototypes
 
 // Execution Begins Here
@@ -23,8 +23,8 @@ int main(int argc, char** argv) {
     unsigned short neDrnk,ncDrnk; //Number of energy and citrus energy drinkers
     
     //Calculate or map inputs to outputs
-    neDrnk=cstSrvy*peDrnk/cnvPerc;
-    ncDrnk=neDrnk*pcDrnk/cnvPerc;
+    neDrnk=cstSrvy*peDrnk/CNVPERC;
+    ncDrnk=neDrnk*pcDrnk/CNVPERC;
     
     //Output the results
     cout<<"Number of Customers Surveyed = "<<cstSrvy<<endl;
