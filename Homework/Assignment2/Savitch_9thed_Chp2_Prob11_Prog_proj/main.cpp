@@ -6,7 +6,7 @@
 
 //Global Libraries
 #include <iostream>
-using namespace std
+using namespace std;
 //User Libraries
 
 //Global constants
@@ -15,7 +15,13 @@ using namespace std
         
 //Execution begins here 
 int main(int argc, char** argv) {
-//Declare and initialize variables
+    //Declare and initialize variables
+    int stemp, ftemp;   
+    float vlcty;
+
+    //Take in inputs
+    cout << "Enter the starting temp in celsius."<<endl;
+    cin  >> stemp;
     
     return 0;
 }
