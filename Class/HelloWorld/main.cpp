@@ -17,10 +17,9 @@ using namespace std;
 // Execution Begins Here
 int main(int argc, char** argv) {
     //Declare and initialize variables
-    float gincome, nincome;
+    
     
     //Inputs 
-    cout<<"Input your gross income."<<endl;
     
     return 0;
 }
