@@ -1,0 +1,115 @@
+/* 
+    Author: Christopher Dean Stump
+    Created on January 19, 2016, 8:30 AM
+    Purpose: 
+ */
+
+// System Libraries
+#include <iostream>
+using namespace std;
+// User Libraries
+
+// Global Constants
+
+// Function Prototypes
+
+// Execution Begins Here
+int main(int argc, char** argv) {
+    //Declare and initialize variables
+    unsigned short nSoltn; //Problem solution to display
+    bool reDsply=true;
+    // menu to display solution
+    do {
+    //Input Problem to display 
+    cout<<"Assignments 3 Problem Set"<<endl;
+    cout<<"Type 1 to display Savitch 8thEd Chp3 Prob10"<<endl;
+    cout<<"Type 2 to display Savitch 8thEd Chp3 Prob11"<<endl;
+    cout<<"Type 1 to display Problem 1"<<endl;
+    cin >>nSoltn;
+    
+        //Solutions to all the problems 
+        switch(nSoltn){
+            case 1:{ 
+                cout<<endl<<"Solution to Savitch 8thEd Chp3 Prob10"<<endl<<endl;
+                cout<<endl<<"The Fibonacci Sequence"<<endl<<endl;
+
+                //Declare variables
+                unsigned int fi,fim1,fim2; // Designations in the sequence
+                unsigned short nTerms;     // Number of termes in te sequence 
+                unsigned short counter;
+                unsigned int nDays;
+                const char dRepro=5;
+                float crudWt;
+                //Initialize the sequence
+                counter=2;
+                fim2=fim1=1;
+
+                //Input the number of turns in the sequence
+                cout<<"Input the initial weight of the crud in lbs"<<endl;
+                cin>>crudWt;
+                cout<<"How may days will the crud be allowed to grow"<<endl;
+                cin>>nDays;
+
+                //Calculate the number of terms
+                nTerms=nDays/dRepro+1;
+
+                //output or calculate output required 
+                if(nTerms==1){
+                    cout<<endl<<"Term "<<nTerms<<" in the sequence = ";
+                    cout<<fim2<<endl;
+                }else if(nTerms==2){
+                    cout<<endl<<"Term"<<nTerms<<" in the sequence = ";
+                    cout<<fim2<<endl;
+                }else{
+                    do{
+                        fi=fim1+fim2;
+                        counter++;
+                    }while(counter<nTerms);
+
+                    cout<<"Term"<<nTerms<<" in the sequence = ";
+                    cout<<fim2<<endl;
+                    }
+                cout<<"After "<<nDays<<" days the crud weighs "<<fi*crudWt<<"(lbs)"<<endl<<endl;
+                break;
+            }
+            case 2:{
+               //Declare and initialize variables
+                const unsigned char nTerms=13;
+                float etox=1,x;
+
+                //Input the value of x
+                cout<<"Input e to x to the x computation"<<endl;
+                cin >>x;
+                //Calculate e^x
+                for (int n=1;n<=nTerms;n++){
+                    //Declare and initialize variables
+                    unsigned int factN=1;
+
+                    //Calculate the factorial 
+                for (int i=1;i<=n;i++){
+                    factN*=1;
+                }
+                    //Calculate e^x with the above factorial
+                    etox=pow(x,n)/factN;
+                }
+                //Output the results
+                cout<<"The exact value of e^x"<<x<<"="<<exp(x)<<endl;
+                cout<<"The approx value of e^x"<<x<<"="<<etox<<endl<<endl;
+
+                break;
+            }
+            case 3:{
+                cout<<endl<<"solution to Problem 1"<<endl<<endl;
+                break;
+            }
+            default:{
+                cout<<"Exiting the program"<<endl;
+                reDsply=false;
+            }
+        
+        }
+    }while(reDsply);
+    
+    return 0;
+}
+
