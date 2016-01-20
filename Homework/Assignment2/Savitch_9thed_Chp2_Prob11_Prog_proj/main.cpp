@@ -23,15 +23,15 @@ int main(int argc, char** argv) {
     cout << "Enter the starting temp in celsius."<<endl;
     cin  >> stemp;
     // Perform calculations
-    vlcty= 331.3+0.61*stemp;
+    vlcty= 331.3f+0.61f*stemp;
     
     //Make outputs
     cout<<"At "<<stemp<<" degrees Celsius the velocity of sound is "<<vlcty<<"m/s"<<endl;
     stemp ++;
-    vlcty= 331.3+0.61*stemp;
+    vlcty= 331.3f+0.61f*stemp;
     cout<<"At "<<stemp<<" degrees Celsius the velocity of sound is "<<vlcty<<"m/s"<<endl;
     stemp ++;
-    vlcty= 331.3+0.61*stemp;
+    vlcty= 331.3f+0.61f*stemp;
     cout<<"At "<<stemp<<" degrees Celsius the velocity of sound is "<<vlcty<<"m/s"<<endl;
     return 0;
 }
