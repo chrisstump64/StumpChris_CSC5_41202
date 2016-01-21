@@ -38,7 +38,7 @@ int main(int argc, char** argv) {
             counter++;
         }while(counter<nTerms);
         
-        cout<<"Term"<<nTerms<<" in the sequence = ";
+        cout<<"Term "<<nTerms<<" in the sequence = ";
         cout<<fim2<<endl;
                 }
     return 0;

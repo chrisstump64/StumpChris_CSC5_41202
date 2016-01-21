@@ -11,7 +11,7 @@ using namespace std;
 int main(int argc, char** argv){
     //Declare and initialize variables
     const unsigned char nTerms=13;
-    float etox=1,tol=1e-3f, term-1,x;
+    float etox=1,tol=1e3f, term=1,x;
     float nTerm;
     //Input the value of x
     cout<<"Input e to x to the x computation"<<endl;

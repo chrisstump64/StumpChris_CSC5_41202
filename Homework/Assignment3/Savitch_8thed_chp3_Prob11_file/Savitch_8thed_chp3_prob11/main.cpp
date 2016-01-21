@@ -1,8 +1,7 @@
 /* 
- * File:   main.cpp
- * Author: rcc
- *
+ * Author: Chrisstump
  * Created on January 19, 2016, 9:52 AM
+ * Purpose: Calculate the factorial
  */
 
 #include <iostream>

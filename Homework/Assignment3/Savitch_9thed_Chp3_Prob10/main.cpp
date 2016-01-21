@@ -17,9 +17,9 @@ using namespace std;
 // Execution Begins Here
 int main(int argc, char** argv) {
     //Declare and initialize variables
-    unsigned char gend lfstyl;             //The variables used to represent sex and the
+    unsigned char gend;             //The variables used to represent sex and their lifestyle
     float bmr;                      //The basal metabolic rate
-    unsigned short wght, hght, age; //The height, weight, and age of the user
+    unsigned short wght, hght, age, lfstyl; //The height, weight, and age of the user
     unsigned char numchoc;
     //Inputs 
     cout << "Input your height in inches."<<endl;
@@ -30,15 +30,25 @@ int main(int argc, char** argv) {
     cin  >> age;
     cout << "Input your gender. M or F"<<endl;
     cin  >> gend;
-    cout <<""
+    cout <<"What is your lifestyle?  Enter 0 if you dont exercise at all 1 for Sedentary, 2 for  somewhat active, 3 for active, or 4 for highly active"<<endl;
+    cin  >> lfstyl;
     //Perform calculations 
     cout << gend<<endl;
-    if (gend='F'){
+    if (gend='70')
         bmr= 655 +(4.3*wght)+(4.7*hght)+(6.8*age); //The formula for bmr for a female
-    }else{ (gend='M')
+    else if (gend='77')
         bmr= 66 +(6.3*wght)+(12.9*hght)+(6.8*age); //The formula for bmr for a male
+        
+    
+    cout <<bmr<<endl;
+    switch(static_cast<int>(lfstyl)){
+        case 1: bmr=bmr+(bmr*.2f);break;
+        case 2: bmr=bmr+(bmr*.3f);break;
+        case 3: bmr=bmr+(bmr*.4f);break;
+        case 4: bmr=bmr+(bmr*.5f);break;
+        default:bmr;break;
     }
-    if ()
+    cout<<bmr<<endl;
     numchoc=bmr/230;
     
     // Perform outputs

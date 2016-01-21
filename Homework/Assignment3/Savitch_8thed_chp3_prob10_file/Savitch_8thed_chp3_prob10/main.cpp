@@ -1,7 +1,6 @@
 /* 
- * File:   main.cpp
- * Author: rcc
- *
+ * Author: r
+ * 
  * Created on January 19, 2016, 9:52 AM
  */
 
