@@ -17,10 +17,10 @@ using namespace std;
 // Execution Begins Here
 int main(int argc, char** argv) {
     //Declare and initialize variables
-    
-    
+    int romnumM, romnumD, romnumC, romnumL, romnumX, romnumV, romnumI;
+    int 
     //Inputs 
-    
+    cout<<
     return 0;
 }
 
