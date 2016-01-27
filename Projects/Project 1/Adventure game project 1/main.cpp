@@ -33,7 +33,7 @@ int main(int argc, char** argv) {
         cout<<"Press 1 to read the description of the knight"<<endl;
         cout<<"Press 2 to read the description of the wizard"<<endl;
         cout<<"Press 3 to read the description of the archer"<<endl;
-        cout<<"Press any other key when you are ready to make your decision"<<endl<<endl;
+        cout<<"Press any other number when you are ready to make your decision"<<endl<<endl;
         cin >>descrip;
         switch(descrip){
             case 1:{            
@@ -52,7 +52,34 @@ int main(int argc, char** argv) {
                 reDsply=false;
             }
 }
-    }while(reDsply=true);
+    }while(reDsply==true);
+    //Setting the Redisplay to true so the next loop repeats
+    reDsply=true;
+    //Do loop to Select
+    do{
+        cout<<endl<<"Press 1 to choose the knight"<<endl;
+        cout<<"Press 2 to choose the wizard"<<endl;
+        cout<<"Press 3 to choose the archer"<<endl;
+        cin >>choice;
+        switch(choice){
+            case 1:{            
+                cout<<endl<<"You have selected the knight"<<endl;
+                plyrdmg=15; plyrhlt=50; 
+                reDsply=false; break;
+            } 
+            case 2:{
+                cout<<endl<<"You have selected the wizard"<<endl; 
+                plyrdmg=40; plyrhlt=25; 
+                reDsply=false; break;
+            } 
+            case 3:{
+                cout<<endl<<"You have selected the archer"<<endl<<endl; 
+                plyrdmg=35, plyrhlt=35; 
+                reDsply=false; break;
+            }            
+}
+ }while(reDsply==true);
+    cout<<plyrdmg<<"  "<<plyrhlt<<endl;
     return 0;
 }
 
