@@ -19,18 +19,16 @@ int pow(int,int);
 int main(int argc, char** argv) {
     //Declare and initialize variables
     int x; //base of the problem
-    int y; //exponent of problem 
+    int y; //exponent of the problem 
     int z; //solved problem
     //Inputs 
-    cout<<"input a and b i.e. for a^b"<<endl;
+    cout<<"input a and e i.e. for a^b"<<endl;
     cin>>x>>y;
     //Calculate 
     z=pow(x,y);
     cout<<x<<"^"<<y<<" = "<<z<<endl;
     return 0;
 }
-//000000001111111111222222222222233333333333333333333333334444444444444455555555555666666666666777777777888888888889999999999
-//
 int pow(int a,int b){ 
     if (b<=0) return 1;
     if (b==1) return a;

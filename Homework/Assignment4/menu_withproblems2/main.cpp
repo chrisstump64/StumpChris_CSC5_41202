@@ -107,5 +107,3 @@ int main(int argc, char** argv) {
     }while(reDsply);
     
     return 0;
-}
-
